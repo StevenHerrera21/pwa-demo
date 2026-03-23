@@ -1,0 +1,15 @@
+{
+  "name": "Mi PWA Demo",
+  "short_name": "PWA Demo",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0d6efd",
+  "theme_color": "#0d6efd",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
