@@ -35,8 +35,13 @@
     <button onclick="alert('Funciona offline 🚀')">
       Probar
     </button>
-  </div>
+    <hr>
+    <input id="taskInput" placeholder="Nueva tarea..." />
+    <button onclick="addTask()">Agregar</button>
 
+    <ul id="taskList"></ul>
+  </div>
+  <script src="app.js"></script>
   <script>
     // Registrar service worker
     if ('serviceWorker' in navigator) {
